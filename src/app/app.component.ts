@@ -11,5 +11,9 @@ import { RouterModule } from '@angular/router';
   imports: [RouterModule, MatToolbarModule, MatButtonModule],
 })
 export class AppComponent {
+<<<<<<< HEAD
   title = 'angular-14-lalmaj';
+=======
+  title = 'angular-14-aaaa';
+>>>>>>> dbe0f94 (hello)
 }

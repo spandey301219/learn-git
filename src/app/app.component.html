@@ -1,0 +1,24 @@
+<mat-toolbar color="accent">
+  <span>Standalone components</span>
+</mat-toolbar>
+<main class="mat-app-background mat-elevation-z2 content">
+  <section class="u-padding">
+    <button
+      type="button"
+      mat-raised-button
+      [routerLink]="['/']"
+      color="primary"
+    >
+      User
+    </button>
+    <button
+      type="button"
+      mat-raised-button
+      [routerLink]="['/dashboard']"
+      color="primary"
+    >
+      Dashboard
+    </button>
+  </section>
+  <router-outlet></router-outlet>
+</main>
